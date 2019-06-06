@@ -5,7 +5,7 @@ const port = 3000;
 const foo = () => {
   return new Promise((r, s) => {
     setTimeout(() => {
-      r("done");
+      r("done2");
     }, 1000);
   });
 };
